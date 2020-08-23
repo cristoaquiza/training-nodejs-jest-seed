@@ -1,0 +1,17 @@
+{
+  "name": "training-nodejs-jest-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config ./jest.config.json",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": [],
+  "author": "Cristian Toaquiza",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "jest": "^26.4.2"
+  }
+}
